@@ -1,0 +1,119 @@
+#FondoEntrada {
+  background-image: url("/assets/images/Imagen de Bodeguero.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 50vh;
+  margin-top: 80px;
+}
+main .LogoEntrada {
+  place-items: center;
+  width: 50%;
+  height: 50%;
+}
+main .BotonInicio {
+  background-color: red;
+  color: white;
+  margin-top: 100px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+main .Registro1 {
+  color: white;
+  margin-top: 40px;
+}
+main .Registro2 {
+  color: red;
+}
+
+main .ContenedorLogin {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+main .form-container {
+  display: grid;
+  gap: px;
+}
+main .LetraSesion {
+  margin-top: 20px;
+}
+main .LetraSesion2 {
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+}
+main .BotonSesion {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 180px;
+  font-size: 17px;
+}
+main h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#Fondo3 {
+  background-image: linear-gradient(grey, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#Form3a {
+  background-color: white;
+  width: 80%;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#Form3a input[type=text],
+#Form3a input[type=email],
+#Form3a input[type=tel],
+#Form3a input[type=date] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Form3a label {
+  display: block;
+  margin-top: 10px;
+}
+#Form3a input[type=submit],
+#Form3a input[type=reset] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

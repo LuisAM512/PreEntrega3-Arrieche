@@ -1,0 +1,44 @@
+
+#FondoEntrada {
+    background-image: url("/assets/images/Imagen de Bodeguero.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+ main {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 80px;
+
+    .LogoEntrada{
+        place-items: center;
+        width: 50%;
+        height: 50%;
+    
+    }
+    .BotonInicio{
+        background-color: red;
+        color: white;
+        margin-top: 100px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    .Registro1{
+        color: white ;
+        margin-top: 40px;
+    }
+    
+    .Registro2{
+        color: red ;
+    }
+
+ }
